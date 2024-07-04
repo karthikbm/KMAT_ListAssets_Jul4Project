@@ -60,3 +60,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.1009
+- serviceName: CCS:SF_51_BMK_QueryAccts
+  packages:
+  - name: SalesforceSOAP_KMAT_Jul2024
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
