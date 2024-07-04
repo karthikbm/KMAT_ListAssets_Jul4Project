@@ -8,12 +8,37 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: TestWorkdayConnector
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
 - name: SalesforceSOAP_KMAT_Jul2024
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+services:
+- serviceName: project.kmat_listassets_jul4.integrations:SF_SOAP_QueryAccts
+  packages:
+  - name: KMAT_ListAssets_Jul4Project
+    version: "1.0"
+  - name: SalesforceSOAP_KMAT_Jul2024
+    version: "1.0"
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
+- serviceName: CCS:SF_53_BMK_QueryAccounts
+  packages:
+  - name: SalesforceSOAP_KMAT_Jul2024
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
