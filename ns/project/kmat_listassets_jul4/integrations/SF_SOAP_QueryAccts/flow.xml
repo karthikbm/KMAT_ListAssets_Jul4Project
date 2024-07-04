@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="1.0" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="SalesforceSOAP_KMAT_Jul2024" SERVICE="CCS:SF_53_BMK_QueryAccounts">
+  <COMMENT></COMMENT>
+</INVOKE>
+</FLOW>
