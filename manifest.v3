@@ -9,15 +9,16 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SalesforceSOAP_KMAT_Jul2024">1.0</value>
+    <value name="TestWorkdayConnector">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">28</value>
+  <value name="build">29</value>
   <null name="description"/>
   <value name="created_date">04-07-2024 07:22:21 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-05T06:17:56.780670239Z</value>
+  <value name="lastUpdated">2024-07-05T06:34:38.465587599Z</value>
 </Values>
