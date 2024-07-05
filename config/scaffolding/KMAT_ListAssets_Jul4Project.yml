@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/karthikbm/KMAT_ListAssets_Jul4Project
   gitUsername: karthikbm
   gitBranch: main
-- name: TestWorkdayConnector
-  version: "1.0"
-  gitServerName: Karthik
-  gitUrl: https://github.com/karthikbm
-  gitUsername: karthikbm
-  gitBranch: main
 - name: SalesforceSOAP_KMAT_Jul2024
   version: "1.0"
   gitServerName: Karthik
