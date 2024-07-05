@@ -13,11 +13,6 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
-- name: TestWorkdayConnector
-  gitServerName: Karthik
-  gitUrl: https://github.com/karthikbm
-  gitUsername: karthikbm
-  gitBranch: main
 services:
 - serviceName: project.kmat_listassets_jul4.integrations:SF_SOAP_QueryAccts
   packages:
