@@ -14,6 +14,7 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: TestWorkdayConnector
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
@@ -67,3 +68,29 @@ services:
     version: 10.7.0.0.53
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.102
+- serviceName: project.kmat_listassets_jul4.integrations:kmat_workday_1
+  packages:
+  - name: KMAT_ListAssets_Jul4Project
+    version: "1.0"
+  - name: SalesforceSOAP_KMAT_Jul2024
+    version: "1.0"
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
+- serviceName: Flowservice:Workday_FM_Flow_kmat
+  packages:
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
+- serviceName: ccs_wd:get_Categories
+  packages:
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
