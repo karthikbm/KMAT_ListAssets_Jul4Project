@@ -20,21 +20,25 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: SalesforceSoapTest1015
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceRestTest1015
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceSoapTest1011
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceRestTest1011
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
@@ -54,6 +58,14 @@ services:
     version: 10.7.0.0.53
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.102
+  - name: SalesforceRestTest1011
+    version: "1.0"
+  - name: SalesforceSoapTest1015
+    version: "1.0"
+  - name: SalesforceRestTest1015
+    version: "1.0"
+  - name: SalesforceSoapTest1011
+    version: "1.0"
 - serviceName: CCS:SF_53_BMK_QueryAccounts
   packages:
   - name: SalesforceSOAP_KMAT_Jul2024
