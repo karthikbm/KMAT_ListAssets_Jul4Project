@@ -14,15 +14,16 @@
     <value name="SalesforceRestTest1015">1.0</value>
     <value name="SalesforceSoapTest1011">1.0</value>
     <value name="SalesforceRestTest1011">1.0</value>
+    <value name="AmazonS3Test1011">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">49</value>
+  <value name="build">50</value>
   <null name="description"/>
   <value name="created_date">04-07-2024 07:22:21 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-15T15:06:07.186322515Z</value>
+  <value name="lastUpdated">2024-07-17T08:02:11.332234736Z</value>
 </Values>

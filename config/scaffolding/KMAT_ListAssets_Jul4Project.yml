@@ -43,6 +43,11 @@ packages:
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
+- name: AmazonS3Test1011
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
 services:
 - serviceName: project.kmat_listassets_jul4.integrations:SF_SOAP_QueryAccts
   packages:
