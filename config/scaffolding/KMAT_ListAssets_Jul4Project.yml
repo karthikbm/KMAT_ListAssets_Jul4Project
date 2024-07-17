@@ -48,6 +48,11 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+- name: MarketoTest1011
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
 services:
 - serviceName: project.kmat_listassets_jul4.integrations:SF_SOAP_QueryAccts
   packages:
