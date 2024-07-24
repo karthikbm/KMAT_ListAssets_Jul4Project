@@ -25,12 +25,6 @@ packages:
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
-- name: SalesforceRestTest1015
-  version: "1.0"
-  gitServerName: Lakshmi
-  gitUrl: https://github.com/lakshmidevi277
-  gitUsername: lakshmidevi277
-  gitBranch: main
 - name: SalesforceSoapTest1011
   version: "1.0"
   gitServerName: Lakshmi
@@ -52,6 +46,12 @@ packages:
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
+  gitBranch: main
+- name: SalesforceRestTest1015
+  version: "1.0"
+  gitServerName: Lakshmi
+  gitUrl: https://github.com/lakshmidevi277
+  gitUsername: lakshmidevi277
   gitBranch: main
 services:
 - serviceName: project.kmat_listassets_jul4.integrations:SF_SOAP_QueryAccts
