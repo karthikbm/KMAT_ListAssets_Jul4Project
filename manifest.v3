@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <null name="startup_services"/>
@@ -20,11 +20,11 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">52</value>
+  <value name="build">53</value>
   <null name="description"/>
   <value name="created_date">04-07-2024 07:22:21 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-24T06:52:34.814611641Z</value>
+  <value name="lastUpdated">2024-07-30T10:52:07.470553271Z</value>
 </Values>
